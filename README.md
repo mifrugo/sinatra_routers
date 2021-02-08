@@ -51,8 +51,8 @@ In the file, require the `app.rb` file and register the routers (this code is ve
 ```ruby
 require './app'
 Routes = Rack::Mount::RouteSet.new do |set|
-  set.add_route RouterAdmin
-  set.add_route RouterPublic
+	set.add_route RouterAdmin
+	set.add_route RouterPublic
 end
 
 run Routes
