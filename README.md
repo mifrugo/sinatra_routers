@@ -29,8 +29,7 @@ require 'rack/mount'
 ```
 Then create your main router, that will be a children of Sinatra/Base.
 ```ruby
-class Router < Sinatra::Base
-end
+class Router < Sinatra::Base; end
 ```
 
 That's it!
