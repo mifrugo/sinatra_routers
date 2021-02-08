@@ -23,8 +23,8 @@ end
 ```
 
 That's it!
-You can now create aas many sub-router as you want.
-We are using a *main router* in order to have inheritance and easily share elements (such as an User instance) between the different routers.
+You can now create as many sub-router as you want.
+We are using a *main router* in order to have inheritance and easily share elements (such as an User instance -- see this Git files for an example) between the different routers.
 ```ruby
 class RouterPublic < Router
   get '/' do
@@ -61,4 +61,4 @@ run Routes
 ## Run the server
 After creating your files, open the terminal, go to the folder of the server and run `rackup`
 
-The default port should by :9292, so you'll be able to access your ruby server on `localhost:9292`
+The default Rack port should be 9292, so you'll be able to access your ruby server on `localhost:9292`
