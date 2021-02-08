@@ -5,7 +5,8 @@ A brief guide for use multiple routers in Sinatra.
 ## Sinatra
 Sinatra is a minimalistic dsl for creating web application in Ruby.
 You can follow the [official readme](http://sinatrarb.com/intro.html "official readme") to get started.
-By default, Sinatra doesn't give the power to mange multiple routers. In this tutorial, we'll see how to do it with a few lines of code.
+By default, Sinatra doesn't give the power to mange multiple routers.
+In this quick tutorial, we'll see how to do it with a few lines of code.
 
 ## Rack
 You can achieve a multi-router system in Sinatra using the class [Rack::Mount::RouteSet](https://www.rubydoc.info/gems/rack-mount/0.8.3/Rack/Mount/RouteSet "RouteSet") offered by Rack.
