@@ -60,4 +60,5 @@ run Routes
 
 ## Run the server
 After creating your files, open the terminal, go to the folder of the server and run `rackup`
-The default port should by :9292, so you'll be able to access your ruby server on `localhost:9292`.
+
+The default port should by :9292, so you'll be able to access your ruby server on `localhost:9292`
