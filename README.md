@@ -17,8 +17,8 @@ You can clone this repo and try it in your local machine.
 
 ------------
 
-## File
-#### app.rb
+## Structure
+### app.rb
 In an `app.rb` file, require [Sinatra/Base](https://www.rubydoc.info/gems/sinatra/Sinatra/Base "Sinatra/Base") and [Rack/Mount](https://www.rubydoc.info/gems/rack-mount/0.8.3/Rack/Mount "Rack/Mount") (install the gems if you haven't already).
 ```ruby
 require 'sinatra/base'
@@ -53,7 +53,7 @@ class RouterAdmin < Router
 end
 ```
 
-#### config.ru
+### config.ru
 Since we will use Rack, we need to create a Rack file to run our server.
 In the file, require the `app.rb` file and register the routers (this code is very basilar, we could automate the registration in multiple ways, but this goes beyond Sinatra).
 ```ruby
