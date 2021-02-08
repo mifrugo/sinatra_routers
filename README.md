@@ -15,6 +15,8 @@ You can clone this repo and try it in your local machine.
 
 `git clone git@github.com:mifrugo/sinatra_routers.git my_folder`
 
+------------
+
 ## File
 #### app.rb
 In an `app.rb` file, require [Sinatra/Base](https://www.rubydoc.info/gems/sinatra/Sinatra/Base "Sinatra/Base") and [Rack/Mount](https://www.rubydoc.info/gems/rack-mount/0.8.3/Rack/Mount "Rack/Mount") (install the gems if you haven't already).
