@@ -27,21 +27,21 @@ You can now create aas many sub-router as you want.
 We are using a *main router* in order to have inheritance and easily share elements (such as an User instance) between the different routers.
 ```ruby
 class RouterPublic < Router
-	get '/' do
-		'Homepage'
-	end
+  get '/' do
+    'Homepage'
+  end
 
-	get '/about' do
-		'About page'
-	end
+  get '/about' do
+    'About page'
+  end
 end
 ```
 
 ```ruby
 class RouterAdmin < Router
-	get '/admin' do
-		'Admin Homepage'
-	end
+  get '/admin' do
+    'Admin Homepage'
+  end
 end
 ```
 
@@ -51,8 +51,8 @@ In the file, require the `app.rb` file and register the routers (this code is ve
 ```ruby
 require './app'
 Routes = Rack::Mount::RouteSet.new do |set|
-	set.add_route RouterAdmin
-	set.add_route RouterPublic
+  set.add_route RouterAdmin
+  set.add_route RouterPublic
 end
 
 run Routes
